@@ -1,0 +1,13 @@
+{
+  "name": "wpi-doc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.4.5",
+    "prettier": "^2.5.1"
+  },
+  "scripts": {
+    "test": "jest --roots test --watchAll"
+  }
+}
