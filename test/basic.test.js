@@ -5,6 +5,7 @@ const wpiParser = new Parser();
 describe("basic test", function () {
   it("collector should search all directories to find .js extension and return array of filename with path", async function () {
     const data = await wpiParser.collector();
+    console.log(data);
     expect(data.length).toBeGreaterThan(0);
   });
 
