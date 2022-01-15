@@ -26,7 +26,7 @@ describe("basic test", function () {
 
   it("should return formatted return value", async function () {
     const paths = await wpiParser.collector();
-    const batcher = wpiParser.batcher([`${DO_NOT_TOUCH.PWD}/case/base.case.js`]);
+    const batcher = wpiParser.batcher(paths);
     const result = wpiParser.parse(batcher);
     expect(result).toStrictEqual([
       {
