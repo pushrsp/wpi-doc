@@ -28,6 +28,7 @@ describe("basic test", function () {
     const paths = await wpiParser.collector();
     const batcher = wpiParser.batcher(paths);
     const result = wpiParser.parse(batcher);
+    // console.log(result);
     // expect(result.length).toBeGreaterThan(0);
     // console.log(JSON.stringify(result));
     fs.writeFileSync("wpi.json", JSON.stringify(result, null, 2));
