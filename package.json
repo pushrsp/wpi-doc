@@ -1,8 +1,15 @@
 {
   "name": "wpi-doc",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "main": "src/index.js",
+  "license": "ISC",
+  "bin": {
+    "wpi-doc": "bin/wpi-doc"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "commonjs",
   "devDependencies": {
     "jest": "^27.4.5",
     "n-readlines": "^1.0.1",
@@ -10,5 +17,11 @@
   },
   "scripts": {
     "test": "jest --roots test --watchAll"
+  },
+  "dependencies": {
+    "cli-color": "^2.0.1",
+    "esm": "^3.2.25",
+    "inquirer": "^8.2.0",
+    "listr": "^0.14.3"
   }
 }
