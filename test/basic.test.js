@@ -20,7 +20,7 @@ describe("basic test", function () {
 
   it("batcher should not search any keyword except comment", async function () {
     const paths = await wpiParser.collector();
-    const batcher = wpiParser.batcher(paths);
+    const batcher = wpiParser.batcher(["/Users/pushrsp/Desktop/projects/wpi-doc/case/store/store.route.js"]);
     expect(batcher.length).toBeGreaterThan(0);
   });
 
