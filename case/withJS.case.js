@@ -12,6 +12,12 @@
  * @wpiFail {string} error 에러
  */
 
+/**
+ * @wpiRoute api/embed [post]
+ * @wpiDescription 임베드 테스트입니다.
+ * @wpiBody {hello} hello 임베딩
+ */
+
 // 테스트 주석
 function Test() {
   console.log("This should not appear on batcher group");

@@ -25,13 +25,12 @@
  */
 
 /**
- * @wpiRoute api/or [post]
- * @wpiDescription 'or' 테스트입니다.
- * @wpiBody {hello | bye} bye or
+ * @wpiDefineKey hi
+ * @wpiDefineValue {string} abc 하이
  */
 
 /**
- * @wpiRoute api/embed [post]
- * @wpiDescription 임베드 테스트입니다.
- * @wpiBody {hello} hello 임베딩
+ * @wpiRoute api/or [post]
+ * @wpiDescription 'or' 테스트입니다.
+ * @wpiBody {hello | bye} bye or
  */

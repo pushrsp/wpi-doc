@@ -26,7 +26,7 @@ describe("basic test", function () {
 
   it("should return formatted return value", async function () {
     const paths = await wpiParser.collector();
-    const batcher = wpiParser.batcher(paths);
+    const batcher = wpiParser.batcher(["/Users/pushrsp/Desktop/projects/wpi-doc/case/embed.case.js"]);
     const result = wpiParser.parse(batcher);
     // console.log(result);
     // expect(result.length).toBeGreaterThan(0);
