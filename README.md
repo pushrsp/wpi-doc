@@ -4,7 +4,6 @@
 3. ```npm link```
 
 # API
-<hr/>
 
 ## @wpiRoute
 ```@wpiRoute api [method]```
@@ -57,7 +56,7 @@
 
 # 예시
 ## 기본
-```aidl
+```
 /**
  * @wpiRoute api/test [post]
  * @wpiDescription 테스트입니다.
@@ -75,7 +74,7 @@
 
 output: 
 
-```aidl
+```
 [
   {
     "route": "api/test",
@@ -147,7 +146,7 @@ output:
 <hr/>
 
 ## 임베딩
-```aidl
+```
 /**
  * @wpiDefineKey hi
  * @wpiDefineValue {string} abc 하이
@@ -160,7 +159,7 @@ output:
  */
 ```
 output:
-```aidl
+```
 [
     {
     "route": "api/embed",
