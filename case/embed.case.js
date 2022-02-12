@@ -32,5 +32,5 @@
 /**
  * @wpiRoute api/or [post]
  * @wpiDescription 'or' 테스트입니다.
- * @wpiBody {hello | bye} bye or
+ * @wpiBody {hi|bye} hi 임베딩
  */

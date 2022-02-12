@@ -7,7 +7,7 @@ const questions = [
     type: "list",
     name: "job",
     message: "Please choose what you want",
-    choices: ["Parse wpi-doc", "Delete all comments"],
+    choices: ["Parse wpi-doc"],
   },
   {
     type: "confirm",
