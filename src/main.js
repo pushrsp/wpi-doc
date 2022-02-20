@@ -3,6 +3,7 @@ const clc = require("cli-color");
 const fs = require("fs");
 
 const Parser = require("../lib/core/parser");
+const { DO_NOT_TOUCH } = require("../lib/utils/factory");
 
 module.exports.execJob = async function (answer) {
   if (!answer.check) return;
@@ -17,6 +18,7 @@ module.exports.execJob = async function (answer) {
           const paths = await wpiParser.collector();
           const batcher = wpiParser.batcher(paths);
           const result = wpiParser.parse(batcher);
+
           fs.writeFileSync(`${answer.fileName}.json`, JSON.stringify(result, null, 2));
 
           return "Done";
