@@ -47,6 +47,13 @@
 ```@wpiDefineKey address```
 <hr/>
 
+## @wpiParam
+```@wpiParam {type} key explain```
+
+## Example
+```@wpiParam {string} id 유저 UID```
+<hr />
+
 ## @wpiDefineValue
 ```@wpiDefineValue {type} key explain```
 
