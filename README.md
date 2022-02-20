@@ -47,6 +47,13 @@
 ```@wpiDefineKey address```
 <hr/>
 
+## @wpiDefineValue
+```@wpiDefineValue {type} key explain```
+
+## Example
+```@wpiDefineValue {string} code 코드```
+<hr/>
+
 ## @wpiParam
 ```@wpiParam {type} key explain```
 
@@ -54,12 +61,12 @@
 ```@wpiParam {string} id 유저 UID```
 <hr />
 
-## @wpiDefineValue
-```@wpiDefineValue {type} key explain```
+## @wpiQuery
+```@wpiQuery {type} key explain```
 
 ## Example
-```@wpiDefineValue {string} code 코드```
-<hr/>
+```@wpiQuery {string} size 페이지 사이즈```
+<hr />
 
 # 예시
 ## 기본
