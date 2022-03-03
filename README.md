@@ -3,6 +3,8 @@
 2. ```npm install```
 3. ```npm link```
 
+[시연 영상링크](https://www.youtube.com/watch?v=uzeVuKjWisk)
+
 # API
 
 ## @wpiRoute
